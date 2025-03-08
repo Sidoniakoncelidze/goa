@@ -1,11 +1,11 @@
 from turtle import*
 
+width(7)
+
 #we step to paint a house
 
 #step 1:  draw a square
 speed(30)
-
-width(7)
 color("purple")    
 forward(200)
 left(90)
@@ -43,10 +43,9 @@ left(120)
 forward(200)
 end_fill
 
-
-#drawing a Window
-   
-
+penup()
+goto(100, 150)
+left(45)
 
 
 
